@@ -45,6 +45,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				<meta property="og:image" content="https://heikal-iskandar-portfolio.vercel.app/og-image-rev.png" />
+			</head>
 			<body>
 				<ClientTopProgressBar />
 				<Navbar />
