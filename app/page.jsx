@@ -329,7 +329,7 @@ const MyPage = () => {
 												<FontAwesomeIcon icon={faInstagram} />
 											</a>
 											<a
-												href="https://twitter.com/heikaliskandar"
+												href="https://twitter.com/Heikaliskandar_"
 												target="_blank"
 												rel="noopener noreferrer"
 												className="text-2xl text-gray-600 hover:text-blue-400 transition-colors duration-300">
