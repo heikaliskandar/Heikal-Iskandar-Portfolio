@@ -6,9 +6,9 @@ import Button from "@/components/Button";
 import Image from "next/image";
 
 // images
-import ReactChat1 from "@/public/image/projects/web/trivia/trivia1.png";
-import ReactChat2 from "@/public/image/projects/web/trivia/trivia2.png";
-import ReactChat3 from "@/public/image/projects/web/trivia/trivia3.png";
+import ReactChat1 from "@/public/image/projects/web/fyp/1.png";
+import ReactChat2 from "@/public/image/projects/web/fyp/2.png";
+import ReactChat3 from "@/public/image/projects/web/fyp/4.png";
 import ProjectAll from "@/public/image/projects.png";
 
 import Hr from "@/components/Hr";
@@ -20,8 +20,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
 	1: "Web Development",
-	2: "AI & Machine Learning",
-	9: "Other",
+	
 };
 
 export default function Page() {
@@ -174,24 +173,24 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Generative Trivia
+							Research & Innovation Conference Grant Management System (Final Year Project)
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							A generative trivia website built with Next.js, Firebase,
-							NextAuth, Google OAuth, and TypeScript. Users can generate trivia
-							questions for predefined school subjects and answer them with a
-							unique interactive input style. The application supports user
-							authentication with Google and stores data in Firestore. You can
-							see the source code of this project on my github account or
-							preview the project by clicking the button below.
+						The Research & Innovation Conference Grant Management System is a 
+						web-based platform designed to streamline the application, approval, 
+						and tracking process for conference grant funding at UniKL. It enables
+						 researchers to submit proposals, manage documentation, and monitor approval
+						  statuses, while providing administrators with tools for reviewing, verifying, 
+						  and reporting on grant activities efficiently. The system enhances transparency,
+						   reduces manual workload, and supports better decision-making in research funding processes.
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/trivia">More</Link>
+								<Link href="projects/fyp">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://generative-trivia.vercel.app/"
+									href="https://pesu.club/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview
@@ -270,9 +269,7 @@ export default function Page() {
 						opacity: 1,
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
-					<Button variation="primary">
-						<Link href="projects/archive">View In Archive</Link>
-					</Button>
+					
 				</motion.div>
 			</main>
 		</>

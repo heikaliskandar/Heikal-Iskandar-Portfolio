@@ -350,11 +350,11 @@ const MyPage = () => {
 											delay: 0.5,
 											type: "spring",
 										}}>
-										<div className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 transition-all ease duration-300">
+										<div className="relative w-full max-w-xs h-60 md:h-[600px] md:w-[30vw] mx-auto">
 											<Image
 												src={Setup}
-												layout="fill"
-												className="object-cover"
+												fill
+												className="object-cover rounded-sm"
 												alt="Setup"
 												placeholder="blur"
 											/>
