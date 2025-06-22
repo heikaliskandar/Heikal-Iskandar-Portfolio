@@ -100,15 +100,7 @@ const MyPage = () => {
 												delay: 0.5,
 												type: "spring",
 											}}>
-											<Button variation="primary">
-												<Link
-													href={"/docs/cv Heikal.pdf"}
-													target="_blank"
-													rel="noopener noreferrer"
-													download>
-													Download CV
-												</Link>
-											</Button>
+											
 											<Button
 												variation="secondary"
 												onClick={() => fullpageApi.moveTo("contact")}>
