@@ -33,10 +33,7 @@ export const metadata = {
 		width: 1200,
 		height: 630,
 		images: [
-			{
-				
-				alt: "Heikal Portfolio",
-			},
+			// Removed og:image to prevent image preview
 		],
 		site_name: "Heikal | Portfolio",
 	}
@@ -46,7 +43,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
-				<meta property="pageimage.png" content="https://heikal-iskandar-portfolio.vercel.app/pageimage.pmg" />
+				{/* Removed og:image meta tag */}
 			</head>
 			<body>
 				<ClientTopProgressBar />
