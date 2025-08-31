@@ -24,6 +24,9 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from "@/components/Sidebar";
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 const MyPage = () => {
 	const fullpageOptions = {
@@ -36,11 +39,12 @@ const MyPage = () => {
 
 	return (
 		<div>
-			<ReactFullpage
-				render={({ state, fullpageApi }) => (
-					<>
-						<Sidebar fullpageApi={fullpageApi} />
-						<ReactFullpage.Wrapper>
+			 <ReactFullpage
+                render={({ state, fullpageApi }) => (
+                    <>
+                        <Sidebar fullpageApi={fullpageApi} />
+                        <ReactFullpage.Wrapper>
+						
 							<div className="section">
 								<div className="mx-auto container grid grid-cols-1 md:grid-cols-3 gap-4 p-10 overflow-hidden md:px-20">
 									<motion.div
@@ -345,7 +349,7 @@ const MyPage = () => {
 										<div className="relative w-full max-w-xs h-60 md:h-[600px] md:w-[30vw] mx-auto">
 											<Image
 												src={Setup}
-												fill
+												layout="fill"
 												className="object-cover rounded-sm"
 												alt="Setup"
 												placeholder="blur"
