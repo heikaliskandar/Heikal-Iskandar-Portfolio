@@ -3,12 +3,8 @@
 # dependencies
 /node_modules
 /.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+.pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -28,10 +24,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
+# local env files
+.env*.local
+.env
 
 # vercel
 .vercel
@@ -39,3 +35,64 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# IDE
+.vscode/
+.idea/
+
+# Old sitemap files (Next.js auto-generates)
+public/sitemap*.xml
+public/robots.txt
+generate-sitemap.js
+
+# Attribution & Credits
+
+This project is based on and includes code from:
+
+- **Original Author**: Alvalens
+- **Original Repository**: https://github.com/Alvalens/Alvalens-porto-2-nextJs
+- **License**: GNU GPL v3.0
+- **Commit Reference**: 40927e3cda9fbeb5aa8ec2dd3c040475886ccfbf
+
+## Files Based on Original Work
+
+The following files contain code derived from the original project:
+- `app/about/page.jsx`
+- `app/projects/page.jsx`
+- `app/(root)/page.jsx`
+- Component layouts and styling patterns
+
+## Modifications Made by Muhammad Heikal Iskandar
+
+- ✅ Customized all content, branding, and personal information
+- ✅ Added comprehensive SEO schema markup and metadata
+- ✅ Enhanced accessibility with ARIA labels and semantic HTML
+- ✅ Implemented responsive animations with mobile optimization
+- ✅ Updated to Next.js 15 App Router with latest best practices
+- ✅ Added dynamic sitemap and robots.txt generation
+- ✅ Optimized images with next/image and modern formats (AVIF, WebP)
+- ✅ Improved performance with code splitting and lazy loading
+- ✅ Added structured data (JSON-LD) for better search engine understanding
+- ✅ Updated color schemes, typography, and overall design system
+
+## Technologies Used
+
+- **Framework**: Next.js 15 (App Router)
+- **React**: 19.1.1
+- **Styling**: Tailwind CSS 4
+- **Animations**: Framer Motion 12
+- **Icons**: Font Awesome 6
+- **Analytics**: Vercel Analytics
+- **Image Optimization**: Sharp
+
+---
+
+**Copyright (C) 2025 Muhammad Heikal Iskandar**
+
+All modifications and derivative works are licensed under GNU GPL v3.0 as required by the original license.
+
+See [LICENSE](LICENSE) file for full terms.
+
+---
+
+Built with ❤️ by Muhammad Heikal Iskandar, based on the excellent foundation by Alvalens.

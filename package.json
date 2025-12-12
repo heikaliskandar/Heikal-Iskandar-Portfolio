@@ -1,7 +1,13 @@
 {
-    "name": "heikal-portfolio-fresh",
-    "version": "0.1.0",
+    "name": "heikal-iskandar-portfolio",
+    "version": "2.0.0",
     "private": true,
+    "author": "Muhammad Heikal Iskandar",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heikaliskandar/Heikal-Iskandar-Portfolio"
+    },
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
