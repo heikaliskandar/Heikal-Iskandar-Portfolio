@@ -4,6 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import Button from "@/components/Button";
 import Image from "next/image";
+import Sidebar from "@/components/Sidebar";
 
 // images
 import ReactChat1 from "@/public/image/projects/web/fyp/1.png";
@@ -20,7 +21,7 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const category = {
 	1: "Web Development",
-	
+
 };
 
 export default function Page() {
@@ -32,6 +33,7 @@ export default function Page() {
 	}, []);
 	return (
 		<>
+			<Sidebar />
 			<main className="overflow-hidden">
 				<FixedButon href="/#projects">
 					<FontAwesomeIcon icon={faChevronLeft} className="text-black pr-10" />
@@ -45,7 +47,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={ProjectAll}
-								alt="Alvalens"
+								alt="Heikal"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -99,7 +101,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat1}
-										alt="Alvalens"
+										alt="Heikal"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -123,7 +125,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg ">
 									<Image
 										src={ReactChat3}
-										alt="Alvalens"
+										alt="Heikal"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -149,7 +151,7 @@ export default function Page() {
 									className="w-full h-full shadow-lg">
 									<Image
 										src={ReactChat2}
-										alt="Alvalens"
+										alt="Heikal"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -176,11 +178,11 @@ export default function Page() {
 							Research & Innovation Conference Grant Management System (Final Year Project)
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-						The Research & Innovation Conference Grant Management System is a 
-						web-based platform designed to streamline the application, approval, 
+						The Research & Innovation Conference Grant Management System is a
+						web-based platform designed to streamline the application, approval,
 						and tracking process for conference grant funding at UniKL. It enables
 						 researchers to submit proposals, manage documentation, and monitor approval
-						  statuses, while providing administrators with tools for reviewing, verifying, 
+						  statuses, while providing administrators with tools for reviewing, verifying,
 						  and reporting on grant activities efficiently. The system enhances transparency,
 						   reduces manual workload, and supports better decision-making in research funding processes.
 						</p>{" "}
@@ -269,7 +271,7 @@ export default function Page() {
 						opacity: 1,
 					}}
 					className="flex justify-center items-center flex-col my-5 self-start ">
-					
+
 				</motion.div>
 			</main>
 		</>
