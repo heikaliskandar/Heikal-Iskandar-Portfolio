@@ -80,7 +80,7 @@ Live site: [https://heikal-iskandar-portfolio.vercel.app/](https://heikal-iskand
 
 ## 📞 Contact
 
-- **Email**: [heikal.iskandar89@gmail.com](heikal.iskandar89@gmail.com)
+- **Email**: [heikaliskandar@gmail.com](heikaliskandar@gmail.com)
 - **LinkedIn**: [https://www.linkedin.com/in/heikal-iskandar/](https://www.linkedin.com/in/heikal-iskandar/)
 - **GitHub**: [https://github.com/heikaliskandar](https://github.com/heikaliskandar)
 - **Instagram**: [https://www.instagram.com/heikaliskandar/](https://www.instagram.com/heikaliskandar/)

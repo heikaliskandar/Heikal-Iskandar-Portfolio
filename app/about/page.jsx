@@ -28,16 +28,6 @@ const ANIMATION_CONFIG = {
 	desktop: { initial: 1, animate: 1.15, hover: 1.6 },
 };
 
-export const metadata = {
-	title: "About Muhammad Heikal Iskandar | Front-End Engineer & SEO Specialist",
-	description:
-		"Learn about Muhammad Heikal Iskandar, a 22-year-old Front-End Engineer and SEO Specialist from Kuala Lumpur. Discover my skills, experience, and passion for web development.",
-	openGraph: {
-		title: "About Muhammad Heikal Iskandar",
-		description: "Front-End Engineer & SEO Specialist based in Kuala Lumpur",
-		url: "https://heikal-iskandar-portfolio.vercel.app/about",
-	},
-};
 
 export default function Page() {
 	const [isMobile, setIsMobile] = useState(false);
